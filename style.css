@@ -1,1 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+html, body {
+    font-family: 'Source Sans Pro';
+    background-color: #eee;
+}
+#newspaper-container {background-color: white;}
+body * {border-bottom: 1px solid #eee;}
