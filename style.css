@@ -1,8 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
-
+* {transition: all 0.2s ease-in-out;}
 html, body {
     font-family: 'Source Sans Pro';
     background-color: #eee;
+    color: black;
 }
-#newspaper-container {background-color: white;}
-body * {border-bottom: 1px solid #eee;}
+.newspaper-container {
+    background-color: white;
+    width: 900px;
+    margin: 20px auto;
+    border-radius: 25px;
+    box-shadow: 6px 6px 3px #ddd;
+    padding: 30px;
+}
+.newspaper-container > * {border-bottom: 2px solid #eee;}
+.newspaper-container > *:last-child {border-bottom: none;}
+header {
+    text-align: center;
+    font-family: 'Abril Fatface';
+}
+.date {text-align: left;}
+nav ul, footer ul {list-style: none;}
+nav li, footer li {
+    display: inline-block;
+    padding: 0 15px;
+}
+footer li {padding: 0 10px;}
+nav a, footer a {
+    color: #777;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover, footer a:hover {color: #ccc;}
+h2, h4 {font-family: 'Roboto Slab';}
+h5 {color: #dd3232;}
+main img, section img {width: 100%;}
+.more-articles section {
+    display: inline-block;
+    width: 33%;
+    /* padding: 0 5px; */
+}
